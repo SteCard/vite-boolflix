@@ -7,7 +7,7 @@
     components:{
         AppHeader,
         AppMain,
-      }
+      },
   }
 </script>
 
@@ -22,8 +22,12 @@
   @import "bootstrap/scss/bootstrap";
   @import './styles/general.scss';
 
+  *{
+    font-family: 'Roboto', sans-serif;
+  }
+
   body{
-    background-color: #434343;
+    background-color: #141414;
   }
 
 </style>
